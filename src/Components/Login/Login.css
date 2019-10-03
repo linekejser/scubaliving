@@ -1,0 +1,33 @@
+.forms {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 150px;
+    flex-wrap: wrap;
+}
+
+#formular2 {
+    margin-left: 100px;
+    margin-top:50px;
+}
+
+#formular {
+    margin-right:100px;
+}
+
+@media screen and (max-width:1024px) {
+    .forms {
+        flex-direction: column;
+        align-content: flex-start;
+        align-items: flex-start;
+        margin-left: 30px;
+    }
+    #formular2 {
+        margin:0;
+    }
+    
+    #formular {
+        margin:0;
+        margin-bottom: 30px;
+    }
+}

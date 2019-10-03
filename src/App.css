@@ -1,0 +1,99 @@
+main {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    height: auto;
+}
+
+.kontakt-p {
+    color: black;
+    font-weight: normal;
+    font-size: 1rem;
+}
+
+iframe {
+    width: 600px;
+    height: 450px;
+    border: 0;
+}
+
+.kontakt-åbntider {
+    margin-top: 70px;
+}
+
+.kort {
+    margin-top: 20px;
+}
+
+.kontakt {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.omos {
+    display: flex;
+}
+
+.ombillede {
+    width: 20%;
+}
+
+.om-p {
+    text-align: justify;
+    margin-right: 50px;
+}
+
+/*RESPONSIVT*/
+
+@media screen and (max-width:600px) {
+    main {
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+        height: auto;
+    }
+
+    .kontakt-åbntider {
+        margin-left:20px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .kort {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .kontakt {
+        justify-content: flex-start;
+        margin: 0;
+        padding: 0;
+    }
+    .kontakt-åbntider {
+        margin: 0;
+        padding: 0;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+    iframe {
+        width: 100%;
+        height: 450px;
+        border: 0;
+        margin: 0;
+        padding: 0;
+    }
+
+    .ombillede {
+        height:300px;
+        width: auto;
+    }
+}
+
+@media screen and (min-width:1024px) and (max-width:1440px) {
+    .ombillede {
+        height: 500px;
+        width: auto;
+    }
+}

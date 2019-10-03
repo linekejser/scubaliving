@@ -1,0 +1,81 @@
+.overskrift {
+    display: flex;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.text {
+    background-color: black;
+    height: 25px;
+    width: 47%;
+    padding-left: 30px;
+}
+
+.grå-panel {
+    background-color: #cccccc;
+    height: 25px;
+    width: 50%;
+}
+
+.DK {
+    margin-bottom: 20px;
+}
+
+p {
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.kursus-box {
+    width: 92%;
+    height: auto;
+    border: 1px solid black;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding:50px;
+    -webkit-box-shadow: 0px 3px 27px -14px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 3px 27px -14px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 3px 27px -14px rgba(0, 0, 0, 0.75);
+}
+
+.kursus-info {
+    width: 700px;
+    margin:50px;
+}
+
+.info-p {
+    color:black;
+    font-weight: normal;
+    font-size: 0.8rem;
+}
+
+.info-h3 {
+    font-weight: normal;
+}
+
+@media screen and (max-width: 1024px) {
+    .kursus-info {
+        width: 100%;
+        margin:10px;
+    }
+
+    .kursus-box {
+        margin:0;
+        padding:0;
+        border: none;
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .text {
+        font-size: 0.6rem;
+    }
+    
+    }

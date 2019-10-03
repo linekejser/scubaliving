@@ -1,0 +1,52 @@
+footer {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    margin-top: 40px;
+    color:white;
+    justify-content: space-around;
+    display: flex;
+    padding-top: 50px;
+    flex-wrap: wrap;
+}
+
+.footer-a {
+    color:white;
+    text-decoration: none;
+    font-weight: none;
+    font-size: 0.9rem;
+}
+
+.praktiske-oplysninger {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.footer-h4 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.fa-linkedin {
+    color:white;
+}
+
+/*RESPONSIVT*/
+
+@media screen and (max-width:600px) {
+    .footer-h4 {
+        font-size:1rem;
+        
+    }
+
+    .footer {
+        justify-content: flex-start;
+    }
+
+    .praktiske-oplysninger {
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+}

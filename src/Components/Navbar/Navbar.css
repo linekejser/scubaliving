@@ -1,0 +1,113 @@
+.navbar {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    align-items:center;
+    color:black;
+    padding:0;
+    margin:0;
+    min-height:2rem;
+    font-size:1.2rem;
+}
+
+.navbar__logo {
+    vertical-align:middle;
+}
+
+.navbar__toggle {
+    margin-right:1rem;
+    font-size:3rem;
+    cursor:pointer;
+}
+
+.navbar__menu {
+    display:none;
+    flex-direction:column;
+    align-items:center;
+    width:100%;
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+
+.navbar__menu--active {
+    display:flex;
+}
+
+.navbar__menu li {
+    margin:1.2rem auto;
+}
+
+.navbar__menu a {
+    text-decoration:none;
+    color:inherit;
+}
+
+.søg-login-box {
+    display: flex;
+}
+
+#img {
+    width: 20px;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.lock {
+    background-color: black;
+    border:none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.login {
+    height: 50px;
+    width: 100px;
+    border:none;
+    color:black;
+    text-decoration: none;
+    font-size: 0.8rem;
+    background-color: #cccccc;
+}
+
+.søgefelt {
+    background-color: #cccccc;
+    border:none;
+    height: 22px;
+}
+
+.søge-knap {
+    background-color: #f0f0f0;
+    border: 1px solid #cccccc;
+    height: 25px;
+    font-size: 0.6rem;
+    font-weight: 500;
+}
+
+/*RESPONSIVT*/
+
+/*PC*/
+@media screen and (min-width:1024px) {
+    .navbar__menu {
+        display:flex;
+        flex-direction:row;
+        justify-content:flex-end;
+        width:initial;
+        margin-right:3rem;
+    }
+    .navbar__menu a {
+        margin-left:1.2rem;
+    }
+    .navbar__toggle {
+        display:none;
+    }
+}
+
+
+
+
+
+
+
